@@ -144,7 +144,7 @@ def main():
     products = market_agent.gather_data(snapdeal_url)
 
     # ChatOllama API setup
-    chat_api = ChatOllama(base_url='https://ollama.dealwallet.com/', model='llama3')
+    chat_api = ChatOllama(base_url='https://ollama.********.com/', model='llama3')
 
     # Use Case Generation Agent
     use_case_agent = UseCaseGenerationAgent(chat_api)
